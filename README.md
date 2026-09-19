@@ -10,6 +10,7 @@
 ![edition](https://img.shields.io/badge/rust-2024%20edition-orange)
 ![size](https://img.shields.io/badge/exe-31%20KB-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
+[![release](https://img.shields.io/github/v/release/xiongzikun0106/Catify?color=blue&label=release)](https://github.com/xiongzikun0106/Catify/releases/latest)
 [![stars](https://img.shields.io/github/stars/xiongzikun0106/Catify?color=yellow&label=stars)](https://github.com/xiongzikun0106/Catify)
 ![cursed](https://img.shields.io/badge/cursed-%E7%8C%8E%E5%A5%87-red)
 
@@ -90,9 +91,13 @@
 
 ## 快速开始
 
-### 方式一：直接用现成的
+### 方式一：直接下载（推荐）
 
-仓库里已经附了编译好的 [`catify.exe`](https://github.com/xiongzikun0106/Catify/raw/main/catify.exe)（31 KB，`strip` + `lto` + `opt-level = "z"`）。点链接直接下载，或者 clone 下来双击运行，然后开始喵。
+**[⬇️ 下载 catify.exe](https://github.com/xiongzikun0106/Catify/releases/latest/download/catify.exe)** —— Windows 10 / 11 x64，31 KB，免安装、免解压、不需要管理员权限，双击即用。
+
+想挑版本或者看每个版本改了什么，去 [Releases](https://github.com/xiongzikun0106/Catify/releases/latest) / [更新日志](CHANGELOG.md)。仓库源码目录里也留了一份 [`catify.exe`](https://github.com/xiongzikun0106/Catify/raw/main/catify.exe) 作为备用。
+
+> 首次运行如果提示缺少 `VCRUNTIME140.dll`，装一下 [VC++ 2015-2022 运行库 (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe) 就行，详见[更新日志](CHANGELOG.md)。
 
 > ⚠️ 双击之后**什么都不会发生** —— 这就是它的正常工作状态。没有窗口、没有托盘图标，只有一只看不见的猫。
 
