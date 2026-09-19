@@ -9,6 +9,7 @@
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4)
 ![edition](https://img.shields.io/badge/rust-2024%20edition-orange)
 ![size](https://img.shields.io/badge/exe-31%20KB-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-blue)
 ![cursed](https://img.shields.io/badge/cursed-%E7%8C%8E%E5%A5%87-red)
 
 </div>
@@ -152,7 +153,11 @@ A：不会。源码 81 行，通读一遍只要两分钟，它连一个文件都
 
 ## 许可证
 
-仓库暂时还没有 LICENSE 文件 —— 作者在微信里只回了一句「OK」，没提许可证的事。建议补一个 MIT，毕竟连开源的锅都是我背的。
+[MIT](LICENSE) —— 随便用，随便改，随便打包去卖，保留版权声明就行。
+
+Copyright (c) 2026 [@CharlesLiu9441](https://github.com/CharlesLiu9441)（原作者）、[@xiongzikun0106](https://github.com/xiongzikun0106)（代为开源）。
+
+按 MIT 的字面意思，本软件「按原样提供」，不附带任何担保 —— 所以因为喵丢掉的 offer，依然不赔。
 
 ---
 
