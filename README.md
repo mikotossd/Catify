@@ -10,7 +10,10 @@
 ![edition](https://img.shields.io/badge/rust-2024%20edition-orange)
 ![size](https://img.shields.io/badge/exe-31%20KB-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
+[![stars](https://img.shields.io/github/stars/xiongzikun0106/Catify?color=yellow&label=stars)](https://github.com/xiongzikun0106/Catify)
 ![cursed](https://img.shields.io/badge/cursed-%E7%8C%8E%E5%A5%87-red)
+
+**[github.com/xiongzikun0106/Catify](https://github.com/xiongzikun0106/Catify)**
 
 </div>
 
@@ -89,15 +92,15 @@
 
 ### 方式一：直接用现成的
 
-仓库里已经附了编译好的 `catify.exe`（31 KB，`strip` + `lto` + `opt-level = "z"`）。双击运行，然后开始喵。
+仓库里已经附了编译好的 [`catify.exe`](https://github.com/xiongzikun0106/Catify/raw/main/catify.exe)（31 KB，`strip` + `lto` + `opt-level = "z"`）。点链接直接下载，或者 clone 下来双击运行，然后开始喵。
 
 > ⚠️ 双击之后**什么都不会发生** —— 这就是它的正常工作状态。没有窗口、没有托盘图标，只有一只看不见的猫。
 
 ### 方式二：自己编译
 
 ```powershell
-git clone https://github.com/<你的用户名>/catify.git   # 换成发布这个仓库的地址
-cd catify
+git clone https://github.com/xiongzikun0106/Catify.git
+cd Catify
 cargo build --release
 # 产物：target\release\catify.exe
 ```
